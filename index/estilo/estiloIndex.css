@@ -1,0 +1,219 @@
+*
+{
+	margin: 1px;
+	padding: 1px;
+	font-family: Verdana;
+}
+body
+{
+	background-color: #e18942;
+	color: #ffffff;
+}
+@media screen and (min-width:1000px)
+{
+	header
+	{
+	 height: 35%;
+     background: url('../../index/imagen/portada1.jpg') ;
+     background-repeat: no-repeat;
+     display: block;
+     margin: auto;
+	}
+	nav
+	{
+	float: left;
+	padding: 5px;
+	width: 20%;
+	height: 100%;
+	background:#b95835;
+	text-align: center;
+    }
+    nav h1
+    {
+	color: #efefd0;
+	font-size: 28;
+	text-decoration: underline;
+    }
+    nav ul li
+	{
+		display: block;
+		float: none;
+		border-bottom:1px solid rgba(255,255,255,.3);
+		
+	}
+	nav ul li:hover
+	{
+		background: rgba(0,0,0,0.3);
+	}
+    nav ul li a
+    {
+	color:#eecd86;
+	padding: 10px;
+	font-size: 24;
+	display: block;
+	text-decoration: none;
+    }
+    section
+    {
+    	background: #e18942;
+    	color: #efefd0;
+	    padding: 5px;
+	    width: 77%;
+	    height: 100%;
+	    float: right;
+	    font-size: 18;
+    }
+    img
+    {
+    	width: 42%;
+    	height:38%;
+    }
+    footer 
+    {
+	    background:#9a5833;
+	    padding: 20px;
+	    text-align: center;
+	    height: 7%;
+    }
+}
+@media screen and (min-width:700px ) and (max-width: 1000px)
+{
+	header
+	{
+	 height: 25%;
+     background: url('../../index/imagen/portada2.jpg') ;
+     background-repeat: no-repeat;
+     display: block;
+     margin: auto;
+	}
+	nav
+	{
+		float: left;
+	    padding: 5px;
+	    width: 20%;
+	    height: 100%;
+	    background: #b95835;
+	    text-align: center;
+    }
+    nav h1
+    {
+	    color: #efefd0;
+	    font-size: 26;
+	    text-decoration: underline;
+    }
+    nav ul li
+	{
+		display: block;
+		float: none;
+		border-bottom:1px solid rgba(255,255,255,.3);
+	}
+	nav ul li:hover
+	{
+		background: rgba(0,0,0,0.3);
+	}
+	nav ul li a
+    {
+	color:#eecd86;
+	padding: 10px;
+	font-size: 20;
+	display: block;
+	text-decoration: none;
+    }
+    section
+    {
+    	background: #e18942;
+	    padding: 5px;
+	    width: 75%;
+	    height: 100%;
+	    float: right;
+	    font-size: 20;
+    }
+    img
+    {
+    	width: 45%;
+    	height:25%;
+    }
+    footer 
+    {
+	    background:#9a5833;
+	    padding: 20px;
+	    font-size: 22;
+	    text-align: center;
+	    height: 7%;
+    }
+}
+@media screen and (max-width:600px)
+{
+	header
+	{
+	 height: 20%;
+     background: url('../../index/imagen/portada3.jpg');
+     display: block;
+     margin: auto;
+	}
+	nav
+	{
+		float: left;
+		margin: 0px;
+	    padding-left: : 0px;
+	    width: 22%;
+	    height: 100%;
+	    background: #b95835;
+    }
+    nav h1
+    {
+	    color: #efefd0;
+	    font-size: 16;
+	    text-decoration: underline;
+    }
+    nav ul li
+	{
+		display: block;
+		float: justify;
+		font-size: 16;
+		border-bottom:1px solid rgba(255,255,255, .3);
+	}
+	nav ul li:hover
+	{
+		background: rgba(0,0,0,0.3);
+	}
+	nav ul li a
+    {
+	color:#eecd86;
+	padding: 0px;
+	font-size: 14;
+	display: block;
+	text-decoration: none;
+    }
+    section
+    {
+    	background: #e18942;
+    	color: #efefd0;
+	    padding-left: 0px;
+	    font-size: 13;
+	    width: 74%;
+	    height: 100%;
+	    float: right;
+    }
+    img
+    {
+    	width: 65%;
+    	height:20%;
+    }
+    footer 
+    {
+	    background:#9a5833;
+	    padding: 10px;
+	    font-size: 12;
+	    text-align: center;
+	    height: 7%;
+    }
+}
+main
+{
+	padding: 0;
+	margin: 0;
+	color: #e18942;
+}
+
+

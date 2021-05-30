@@ -1,0 +1,98 @@
+*
+{
+	font-family: verdana;
+	margin: 3px;
+	padding: 3px;
+}
+body
+{
+	background-color: #f4841a;
+	color: #ffffff;
+}
+@media screen and (min-width:1000px)
+{
+	header
+{
+	height: 10%;
+	padding: 3px;
+	background: #d34e24;
+	color: #fff;
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	font-size: 40;
+	border-radius: 20px;
+}
+img
+{
+	width: 15%;
+	height: 35%;
+	float: left;
+}
+#con1
+{
+	height: 35%;
+	font-size: 18;
+}
+#con2
+{
+	padding: 5px;
+	height: 40%;
+	font-size: 18;
+}
+}
+@media screen and (min-width:700px ) and (max-width: 1000px)
+{
+	header
+{
+	height: 8%;
+	padding: 3px;
+	padding-left: 10px;
+	background: #d34e24;
+	color: #fff;
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	font-size: 40;
+	border-radius: 20px;
+}
+img
+{
+	width: 30%;
+	height: 35%;
+	float: left;
+}
+#con1
+{
+	padding: 5px;
+	height: 43%;
+	font-size: 20;
+
+}
+#con2
+{
+	padding: 5px;
+	width: 100%;
+	height: 38%;
+	font-size: 20;
+}
+}
+@media screen and (max-width:600px)
+{
+	header
+{
+	height: 8%;
+	padding: 3px;
+	background: #d34e24;
+	color: #fff;
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	font-size: 24;
+	border-radius: 10px;
+}
+img
+{
+	width: 50%;
+	height: 40%;
+}
+}
+
+
